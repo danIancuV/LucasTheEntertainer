@@ -11,8 +11,15 @@ body {
     font-size: 40px;
     letter-spacing: 1px;
 }
-ol, ul {
-	list-style: none;
+
+ul.social-list {
+    list-style: none;
+    position: relative;
+    top: 580px;
+}
+ul.social-list > li > a:focus, ul.social-list > li > a:hover {
+    color: #BE2525;
+    background-color: transparent;
 }
 blockquote, q {
 	quotes: none;
@@ -79,7 +86,7 @@ Responsive media queries
     outline: none;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #fff;
+    color: #BE2525;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -141,7 +148,8 @@ Responsive media queries
 	padding: 60px 0px;
 }
 .title{
-	font-size: 48px;
+	font-family: "Rock Salt", cursive;
+    font-size: 48px;
 	margin-bottom: 50px;
 }
 .title-text{
@@ -243,6 +251,7 @@ footer {
 	display: inline-block;
 }
 .contact-sec h2 {
+    font-family: "Rock Salt", cursive;
     font-size: 48px;
     margin-bottom: 50px;
 }
@@ -285,8 +294,9 @@ footer {
 	margin: 0;
 }
 .social-list li a{
-		font-size: 28px;
+		font-size: 36px;
 		margin-right: 15px;
+        color: #fff;
 }
 .type-underline, .type-underline:hover{
 	color: #767676; 
